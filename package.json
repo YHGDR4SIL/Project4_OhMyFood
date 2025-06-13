@@ -1,0 +1,26 @@
+{
+  "name": "project4_ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass/main.scss dist/style.css",
+    "sass:watch": "sass sass/main.scss dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YHGDR4SIL/Project4_OhMyFood.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YHGDR4SIL/Project4_OhMyFood/issues"
+  },
+  "homepage": "https://github.com/YHGDR4SIL/Project4_OhMyFood#readme",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

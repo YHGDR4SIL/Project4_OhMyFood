@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family="Roboto", sans-serif:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+div.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 63px;
+  padding: 14px 89px 13px 89px;
+  flex-shrink: 0;
+}
+div.logo img {
+  display: flex;
+  width: 197px;
+  height: 36px;
+  padding: 0px 19px 0px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+div.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  gap: 17px;
+  flex-shrink: 0;
+  background: #EAEAEA;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+div.location img {
+  width: 12px;
+  height: 16px;
+  flex-shrink: 0;
+  fill: #353535;
+}
+div.location input {
+  color: #353535;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #EAEAEA;
+  border: none;
+  width: 110px;
+}
+
+div#hero {
+  padding-top: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F6F6F6;
+}
+div#hero h1 {
+  color: #101010;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 275px;
+  height: 68px;
+}
+div#hero p {
+  color: #353535;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 100%;
+  flex-shrink: 0;
+}
+div#hero button {
+  border-radius: 25px;
+  background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 27px;
+  margin-bottom: 57px;
+  width: 218px;
+  height: 50px;
+  flex-shrink: 0;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#hiw {
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div#hiw h2 {
+  color: #101010;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 322.486px;
+  margin-bottom: 27px;
+}
+div#hiw div.hiw_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 27px;
+}
+div#hiw div.hiw_container div.hiw_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 322.486px;
+  height: 72.379px;
+  gap: 27px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #F6F6F6;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+div#hiw div.hiw_container div.hiw_section h3 {
+  color: #101010;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+div#hiw div.hiw_container div.hiw_section div.hiw_number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: calc(50% - 161.243px - 10px);
+  background: #9356DC;
+  border-radius: 12px;
+  height: 24px;
+  width: 24px;
+}
+div#hiw div.hiw_container div.hiw_section div.hiw_number p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14.182px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+div#restaurants {
+  background-color: #EAEAEA;
+  padding: 54px 17px 66px 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+div#restaurants h2 {
+  color: #101010;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+}
+div#restaurants div.restaurant {
+  position: relative;
+  height: 251px;
+  width: 340px;
+  overflow: hidden;
+  align-self: stretch;
+  border-radius: 15px;
+  background: #fff;
+}
+div#restaurants div.restaurant img {
+  height: 173px;
+  width: 100%;
+  object-fit: cover;
+}
+div#restaurants div.restaurant div.restaurant_new {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 80px;
+  height: 29px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #99E2D0;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #008766;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+div#restaurants div.restaurant div.restaurant_info {
+  background-color: #fff;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+div#restaurants div.restaurant div.restaurant_info h3 {
+  color: #101010;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+div#restaurants div.restaurant div.restaurant_info p {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+div#restaurants div.restaurant div.restaurant_info img {
+  width: 22px;
+  height: 21px;
+  position: absolute;
+  right: 25px;
+  top: calc(50% - 11px);
+}
+
+footer {
+  padding: 22px 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #353535;
+}
+footer > img {
+  width: 137.582px;
+  height: 27px;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+footer div a {
+  display: flex;
+  gap: 11px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+footer div a p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=style.css.map */

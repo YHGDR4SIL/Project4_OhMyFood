@@ -1,0 +1,63 @@
+@use '../abstracts' as *;
+
+div#hiw {
+    padding: 48px 0;
+    @include flex-center;
+    @include column;
+
+    h2 {
+        color: $black;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 322.486px;
+        margin-bottom: 27px;
+    }
+
+    div.hiw_container {
+        @include flex-center;
+        @include column;
+        gap: 27px;
+
+        div.hiw_section {
+            @include flex-center;
+            width: 322.486px;
+            height: 72.379px;
+            gap: 27px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            background: $bg;
+            box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+
+            h3 {
+                color: $black;
+                font-family: "Roboto", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            div.hiw_number {
+                position: absolute;
+                @include flex-center;
+                left: calc(50% - (322.486px / 2) - 10px);
+                background: $purple;
+                border-radius: 12px;
+                height: 24px;
+                width: 24px;
+
+                p {
+                    color: $white;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 14.182px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
