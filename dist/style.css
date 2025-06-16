@@ -21,9 +21,16 @@ header {
   flex-direction: column;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   width: 100%;
+  position: relative;
 }
-
-div.logo {
+header div.back_arrow {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: 17px;
+  width: 30px;
+  height: 30px;
+}
+header div.logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +39,7 @@ div.logo {
   padding: 14px 89px 13px 89px;
   flex-shrink: 0;
 }
-div.logo img {
+header div.logo img {
   display: flex;
   width: 197px;
   height: 36px;
