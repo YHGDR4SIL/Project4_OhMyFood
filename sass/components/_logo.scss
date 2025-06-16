@@ -4,6 +4,7 @@ header {
     @include flex-center;
     @include column;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 100%;
 }
 
 div.logo {

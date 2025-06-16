@@ -6,6 +6,8 @@ div#restaurants {
     @include flex-center;
     @include column;
     gap: 20px;
+    align-self: center;
+    width: 100%;
 
     h2 {
         color: $black;
@@ -20,7 +22,7 @@ div#restaurants {
     div.restaurant {
         position: relative;
         height: 251px;
-        width: 340px;
+        width: 100%;
         overflow: hidden;
         align-self: stretch;
         border-radius: 15px;

@@ -9,6 +9,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -17,6 +20,7 @@ header {
   align-items: center;
   flex-direction: column;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
 }
 
 div.logo {
@@ -48,6 +52,7 @@ div.location {
   flex-shrink: 0;
   background: #EAEAEA;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 4px;
 }
 div.location img {
   width: 12px;
@@ -192,6 +197,8 @@ div#restaurants {
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  align-self: center;
+  width: 100%;
 }
 div#restaurants h2 {
   color: #101010;
@@ -205,7 +212,7 @@ div#restaurants h2 {
 div#restaurants div.restaurant {
   position: relative;
   height: 251px;
-  width: 340px;
+  width: 100%;
   overflow: hidden;
   align-self: stretch;
   border-radius: 15px;
