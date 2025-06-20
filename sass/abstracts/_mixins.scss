@@ -7,3 +7,12 @@
 @mixin column {
     flex-direction: column;
 }
+
+@mixin style_title {
+    color: #101010;
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
