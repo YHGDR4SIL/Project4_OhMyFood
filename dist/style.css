@@ -22,6 +22,7 @@ body {
 }
 body {
   font-family: "Roboto", sans-serif;
+  color: #000;
 }
 
 div#hiw {
@@ -328,6 +329,66 @@ div#restaurants article.restaurant div.restaurant_info img {
   position: absolute;
   right: 25px;
   top: calc(50% - 11px);
+}
+
+.menu_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+}
+.menu_section .menu_section_title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  gap: 4px;
+}
+.menu_section .menu_section_title h2 {
+  color: #000;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menu_section .menu_section_title .line {
+  width: 40px;
+  height: 3px;
+  background-color: #99e2d0;
+}
+.menu_section .menu_section_content {
+  width: 100%;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 4.011px 15.043px 0px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  gap: 5px;
+  position: relative;
+}
+.menu_section .menu_section_content h3 {
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu_section .menu_section_content h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15.043px;
+  font-weight: 300;
+}
+.menu_section .menu_section_content p {
+  color: #353535;
+  font-size: 15.043px;
+  font-weight: 700;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
 }
 
 footer {

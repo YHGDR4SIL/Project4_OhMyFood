@@ -4,6 +4,12 @@
     align-items: center;
 }
 
+@mixin flex-start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
 @mixin column {
     flex-direction: column;
 }
@@ -15,4 +21,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@mixin ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
