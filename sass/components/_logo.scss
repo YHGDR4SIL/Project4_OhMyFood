@@ -3,7 +3,6 @@
 header {
     @include flex-center;
     @include column;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
     width: 100%;
     position: relative;
 
@@ -21,6 +20,8 @@ header {
         height: 63px;
         padding: 14px 89px 13px 89px;
         flex-shrink: 0;
+        z-index: 2;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 
         img {
             display: flex;

@@ -1,9 +1,4 @@
 @use 'abstracts';
-@use 'base/global';
-@use 'components/logo';
-@use 'components/location';
-@use 'components/hero';
-@use 'components/hiw';
-@use 'components/restaurants';
-@use 'components/footer';
-@use 'components/menu'
+@use 'base';
+@use 'components';
+@use 'layout';
