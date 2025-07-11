@@ -1,13 +1,21 @@
 @use '../abstracts' as *;
 
 div#restaurants {
-    background-color: $grey2;
+    background-color: $bg;
     padding: 54px 17px 66px 17px;
     @include flex-center;
     @include column;
     gap: 20px;
     align-self: center;
     width: 100%;
+
+    @include desktop{
+        padding: 30px 180px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 28px 100px;
+    }
 
     h2 {
         color: $black;
@@ -17,6 +25,9 @@ div#restaurants {
         font-weight: 700;
         line-height: normal;
         width: 100%;
+        @include desktop{
+            min-width: 100%;
+        }
     }
 
     article.restaurant {
@@ -27,6 +38,10 @@ div#restaurants {
         align-self: stretch;
         border-radius: 15px;
         background: $white;
+
+        @include desktop{
+            width: 490px;
+        }
 
         img {
             height: 173px;

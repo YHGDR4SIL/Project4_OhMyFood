@@ -5,6 +5,12 @@ div#hiw {
     @include flex-center;
     @include column;
 
+    @include desktop{
+        padding: 50px 180px;
+        width: 100%;
+        align-items: start;
+    }
+
     h2 {
         color: $black;
         font-family: "Roboto", sans-serif;
@@ -21,6 +27,13 @@ div#hiw {
         @include column;
         gap: 27px;
 
+        @include desktop{
+            flex-direction: row;
+            width: 100%;
+            justify-content: start;
+            gap: 36px;
+        }
+
         div.hiw_section {
             @include flex-center;
             width: 322.486px;
@@ -30,6 +43,7 @@ div#hiw {
             border-radius: 20px;
             background: $bg;
             box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+            position: relative;
 
             h3 {
                 color: $black;

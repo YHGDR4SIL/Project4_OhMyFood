@@ -8,6 +8,13 @@ footer {
     gap: 16px;
     background-color: $grey;
 
+    @include desktop{
+        flex-direction: row-reverse;
+        padding: 30px 25px;
+        height: 114px;
+        align-items: flex-end;
+    }
+
     >img {
         width: 137.582px;
         height: 27px;
@@ -18,6 +25,11 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         gap: 7px;
+
+        @include desktop{
+            flex-direction: row;
+            align-items: flex-end;
+        }
 
         a {
             display: flex;
@@ -31,6 +43,9 @@ footer {
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+            @include desktop{
+                min-width: 130px;
+            }
         }
     }
 }

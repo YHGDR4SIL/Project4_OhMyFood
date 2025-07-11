@@ -6,6 +6,13 @@ div#hero {
     @include column;
     background-color: $bg;
 
+    @include desktop {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
     h1 {
         color: $black;
         text-align: center;
@@ -16,6 +23,13 @@ div#hero {
         line-height: normal;
         width: 275px;
         height: 68px;
+
+        @include desktop {
+            font-size: 40px;
+            width: fit-content;
+            color: #000;
+        }
+
     }
 
     p {
@@ -28,6 +42,14 @@ div#hero {
         line-height: normal;
         width: 100%;
         flex-shrink: 0;
+
+        @include desktop {
+            height: 46px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
     }
 
     button {
@@ -49,5 +71,11 @@ div#hero {
         line-height: normal;
         flex-shrink: 0;
         @include flex-center;
+
+        @include desktop {
+            margin-top: 18px;
+            margin-bottom: 0;
+        }
+
     }
 }

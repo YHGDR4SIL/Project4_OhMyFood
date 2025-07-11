@@ -32,6 +32,13 @@ div#hiw {
   align-items: center;
   flex-direction: column;
 }
+@media (min-width: 1024px) {
+  div#hiw {
+    padding: 50px 180px;
+    width: 100%;
+    align-items: start;
+  }
+}
 div#hiw h2 {
   color: #101010;
   font-family: "Roboto", sans-serif;
@@ -49,6 +56,14 @@ div#hiw div.hiw_container {
   flex-direction: column;
   gap: 27px;
 }
+@media (min-width: 1024px) {
+  div#hiw div.hiw_container {
+    flex-direction: row;
+    width: 100%;
+    justify-content: start;
+    gap: 36px;
+  }
+}
 div#hiw div.hiw_container div.hiw_section {
   display: flex;
   justify-content: center;
@@ -60,6 +75,7 @@ div#hiw div.hiw_container div.hiw_section {
   border-radius: 20px;
   background: #F6F6F6;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 div#hiw div.hiw_container div.hiw_section h3 {
   color: #101010;
@@ -97,6 +113,13 @@ div#hero {
   flex-direction: column;
   background-color: #F6F6F6;
 }
+@media (min-width: 1024px) {
+  div#hero {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 div#hero h1 {
   color: #101010;
   text-align: center;
@@ -108,6 +131,13 @@ div#hero h1 {
   width: 275px;
   height: 68px;
 }
+@media (min-width: 1024px) {
+  div#hero h1 {
+    font-size: 40px;
+    width: fit-content;
+    color: #000;
+  }
+}
 div#hero p {
   color: #353535;
   text-align: center;
@@ -118,6 +148,14 @@ div#hero p {
   line-height: normal;
   width: 100%;
   flex-shrink: 0;
+}
+@media (min-width: 1024px) {
+  div#hero p {
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 div#hero button {
   border-radius: 25px;
@@ -141,6 +179,12 @@ div#hero button {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 1024px) {
+  div#hero button {
+    margin-top: 18px;
+    margin-bottom: 0;
+  }
+}
 
 div.location {
   display: flex;
@@ -153,6 +197,12 @@ div.location {
   background: #EAEAEA;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   margin-bottom: 4px;
+}
+@media (min-width: 1024px) {
+  div.location {
+    box-shadow: none;
+    margin-bottom: 0;
+  }
 }
 div.location img {
   width: 12px;
@@ -251,7 +301,7 @@ main .menu .title h1 {
 }
 
 div#restaurants {
-  background-color: #EAEAEA;
+  background-color: #F6F6F6;
   padding: 54px 17px 66px 17px;
   display: flex;
   justify-content: center;
@@ -260,6 +310,15 @@ div#restaurants {
   gap: 20px;
   align-self: center;
   width: 100%;
+}
+@media (min-width: 1024px) {
+  div#restaurants {
+    padding: 30px 180px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 28px 100px;
+  }
 }
 div#restaurants h2 {
   color: #101010;
@@ -270,6 +329,11 @@ div#restaurants h2 {
   line-height: normal;
   width: 100%;
 }
+@media (min-width: 1024px) {
+  div#restaurants h2 {
+    min-width: 100%;
+  }
+}
 div#restaurants article.restaurant {
   position: relative;
   height: 251px;
@@ -278,6 +342,11 @@ div#restaurants article.restaurant {
   align-self: stretch;
   border-radius: 15px;
   background: #fff;
+}
+@media (min-width: 1024px) {
+  div#restaurants article.restaurant {
+    width: 490px;
+  }
 }
 div#restaurants article.restaurant img {
   height: 173px;
@@ -422,6 +491,14 @@ footer {
   gap: 16px;
   background-color: #353535;
 }
+@media (min-width: 1024px) {
+  footer {
+    flex-direction: row-reverse;
+    padding: 30px 25px;
+    height: 114px;
+    align-items: flex-end;
+  }
+}
 footer > img {
   width: 137.582px;
   height: 27px;
@@ -431,6 +508,12 @@ footer div {
   flex-direction: column;
   align-items: flex-start;
   gap: 7px;
+}
+@media (min-width: 1024px) {
+  footer div {
+    flex-direction: row;
+    align-items: flex-end;
+  }
 }
 footer div a {
   display: flex;
@@ -444,6 +527,11 @@ footer div a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+@media (min-width: 1024px) {
+  footer div a {
+    min-width: 130px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
