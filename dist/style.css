@@ -253,6 +253,8 @@ header div.logo {
 @media (min-width: 1024px) {
   header div.logo {
     box-shadow: none;
+    padding: 32px 89px;
+    height: 96px;
   }
 }
 header div.logo img {
@@ -275,6 +277,13 @@ main > img {
   top: 63px;
   left: 0;
   z-index: -1;
+  object-fit: cover;
+}
+@media (min-width: 1024px) {
+  main > img {
+    top: 96px;
+    height: 386px;
+  }
 }
 main .menu {
   background-color: #F6F6F6;
@@ -285,11 +294,29 @@ main .menu {
   padding-left: 17px;
   padding-right: 17px;
 }
+@media (min-width: 1024px) {
+  main .menu {
+    max-width: 1055px;
+    min-width: initial;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 212px;
+    padding-right: 212px;
+    padding-top: 52px;
+    margin-top: 342px;
+  }
+}
 main .menu .title {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+}
+@media (min-width: 1024px) {
+  main .menu .title {
+    justify-content: center;
+    gap: 24px;
+  }
 }
 main .menu .title h1 {
   color: #101010;
@@ -320,6 +347,9 @@ div#restaurants {
     gap: 28px 100px;
   }
 }
+div#restaurants a {
+  text-decoration: none;
+}
 div#restaurants h2 {
   color: #101010;
   font-family: "Roboto", sans-serif;
@@ -328,6 +358,7 @@ div#restaurants h2 {
   font-weight: 700;
   line-height: normal;
   width: 100%;
+  text-decoration: none;
 }
 @media (min-width: 1024px) {
   div#restaurants h2 {
@@ -389,6 +420,7 @@ div#restaurants article.restaurant div.restaurant_info h3 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-decoration: none;
 }
 div#restaurants article.restaurant div.restaurant_info p {
   color: #000;
@@ -397,6 +429,7 @@ div#restaurants article.restaurant div.restaurant_info p {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  text-decoration: none;
 }
 div#restaurants article.restaurant div.restaurant_info img {
   width: 22px;
@@ -481,6 +514,17 @@ div#restaurants article.restaurant div.restaurant_info img {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
+}
+@media (min-width: 1024px) {
+  .order_button {
+    background-color: #F6F6F6;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding-top: 40px;
+    width: 100%;
+    max-width: 1055px;
+  }
 }
 
 footer {

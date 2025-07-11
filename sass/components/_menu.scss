@@ -10,6 +10,11 @@ main {
         top: 63px;
         left: 0;
         z-index: -1;
+        object-fit: cover;
+        @include desktop{
+            top: 96px;
+            height: 386px;
+        }
     }
 
     .menu {
@@ -21,12 +26,26 @@ main {
         padding-left: 17px;
         padding-right: 17px;
 
+        @include desktop{
+            max-width: 1055px;
+            min-width: initial;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 212px;
+            padding-right: 212px;
+            padding-top: 52px;
+            margin-top: 342px;
+        }
+
         .title {
 
             @include flex-center;
 
             justify-content: space-between;
-
+            @include desktop{
+                justify-content: center;
+                gap: 24px;
+            }
             h1 {
                 @include style_title;
             }

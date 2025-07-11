@@ -26,6 +26,8 @@ header {
 
         @include desktop{
             box-shadow: none;
+            padding: 32px 89px;
+            height: 96px;
         }
 
         img {
