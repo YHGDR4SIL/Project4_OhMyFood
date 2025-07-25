@@ -10,7 +10,11 @@ div#restaurants {
     width: 100%;
 
     @include desktop{
-        padding: 30px 180px;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: max(180px, calc(50vw - 720px + 180px));;
+        padding-right: max(180px, calc(50vw - 720px + 180px));;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: start;
@@ -36,6 +40,7 @@ div#restaurants {
     }
 
     article.restaurant {
+        
         position: relative;
         height: 251px;
         width: 100%;

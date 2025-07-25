@@ -5,6 +5,9 @@ header {
     @include column;
     width: 100%;
     position: relative;
+    @include desktop{
+        width: 100vw!important;
+    }
 
     a.back_arrow {
         position: absolute;

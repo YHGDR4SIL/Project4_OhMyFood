@@ -8,12 +8,16 @@ footer {
     gap: 16px;
     background-color: $grey;
 
+
     @include desktop{
         flex-direction: row-reverse;
         padding: 30px 25px;
         height: 114px;
         align-items: flex-end;
+        margin: 0;
+        width: 100vw!important;
     }
+    
 
     >img {
         width: 137.582px;
